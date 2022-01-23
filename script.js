@@ -5,7 +5,7 @@ function compute()
     n = document.getElementById("years").value;
     
     const onClick = () => {
-        const interest = {p*r*t)/100;
+        const interest = {p*r*n)/100;
         var text = document.createTextNode(interest);
         document.getElementById("result").appendChild(text);
     }
