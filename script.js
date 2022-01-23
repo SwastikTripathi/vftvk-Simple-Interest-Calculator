@@ -9,6 +9,10 @@ function compute()
         var text = document.createTextNode(interest);
         document.getElementById("result").appendChild(text);
     }
+    
+    function updateTextInput(val) {
+          document.getElementById('textInput').value=val; 
+        }
 };
     
 }
